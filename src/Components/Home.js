@@ -6,7 +6,6 @@ import { QuizContext } from '../layers/Main'
 const Home = () => {
   const quizTopics = useContext(QuizContext);
   const quiz = quizTopics.data;
-  // console.log(quizTopics);
   return (
     <div className='my-12'>
       <div className='text-center mx-20 my-4'>
@@ -16,9 +15,9 @@ const Home = () => {
       </div>
       <div className='grid gap-4 lg:grid-cols-4 place-items-center md:grid-cols-2'>
         {
-          quiz.map(quizTopic =><QuizSection
-          key={quizTopic.id}
-          quizTopic={quizTopic}
+          quiz.map(quizTopic => <QuizSection
+            key={quizTopic.id}
+            quizTopic={quizTopic}
           ></QuizSection>)
         }
       </div>
