@@ -19,7 +19,7 @@ const Result = () => {
           }
           return quizDetails
         })
-        console.log(quizDatas);
+
 
       setQuizMark(quizDatas)
       })
