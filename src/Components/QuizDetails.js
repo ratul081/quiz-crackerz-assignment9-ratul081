@@ -4,10 +4,10 @@ import Questions from '../Components/Questions';
 
 const QuizDetails = () => {
   const { data } = useLoaderData();
-  // console.log("🚀 ~ file: QuizDetails.js:7 ~ QuizDetails ~ data:", data)
+  
+  
   const questions = data.questions;
-  // console.log("🚀 ~ file: QuizDetails.js:9 ~ QuizDetails ~ questions:", questions)
-  // console.log(data);
+
   return (
     <div>
       <div className='text-center'>
@@ -18,7 +18,7 @@ const QuizDetails = () => {
         questions.map((questions) => <Questions
           key={questions.id}
           questions={questions}
-          topicName ={data.name}
+          topicName={data.name}
         ></Questions>)
       }
     </div>
