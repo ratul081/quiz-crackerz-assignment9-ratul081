@@ -26,7 +26,6 @@ const Result = () => {
   const clearResults = () => {
     deleteShoppingCart();
   }
-
   return (
     <div>
       <div className='text-center text-4xl my-8'>
