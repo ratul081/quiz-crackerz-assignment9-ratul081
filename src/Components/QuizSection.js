@@ -12,6 +12,7 @@ const QuizSection = ({ quizTopic }) => {
           <p className='text-start'>Total question: {total}</p>
           <div className="card-actions justify-end">
             <NavLink to={`quiz/${id}`} className='btn btn-primary'>Start</NavLink>
+            
           </div>
         </div>
       </div>
