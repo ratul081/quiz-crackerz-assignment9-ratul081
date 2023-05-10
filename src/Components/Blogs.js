@@ -5,7 +5,7 @@ const Blogs = () => {
     <div>
       <div className='m-4 lg:m-20'>
         <div className='text-center font-semibold  m-3 p-3'>
-        <p className='text-2xl'>Here is some interview question.</p>
+          <p className='text-2xl'>Here is some interview question.</p>
         </div>
         <div className='m-3 p-3'>
           <h1 className='font-bold text-3xl mb-2'>Question-1: What is the purpose of React Router?</h1>
