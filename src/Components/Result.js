@@ -19,9 +19,7 @@ const Result = () => {
           }
           return quizDetails
         })
-
-
-      setQuizMark(quizDatas)
+        setQuizMark(quizDatas)
       })
   }, [scores])
 
