@@ -38,7 +38,6 @@ const Questions = ({ questions,topicName }) => {
       toast.warning('So Sad. You are wrong!!!', { autoClose: 400 })
     }
   }
-  // console.log(topicName);
   return (
     <div className='bg-orange-300 mx-4 md:mx-10 lg:mx-60 my-7 py-6 rounded-lg relative'>
       <div onClick={() => {
