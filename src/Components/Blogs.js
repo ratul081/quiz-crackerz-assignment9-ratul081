@@ -13,7 +13,7 @@ const Blogs = () => {
         </div>
         <div className='m-3 p-3 mt-4'>
           <h1 className='font-bold text-3xl mb-2'>Question-2: How does context API works?</h1>
-          <p className='text-xl' ><span className='font-semibold ' >Answer: </span>  Context api  pass data from parent to children nested deep down the component tree directly,It is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. </p>
+          <p className='text-xl' ><span className='font-semibold ' >Answer: </span>  Context api  pass data from parent to children nested deep down the component tree directly,It is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on.</p>
         </div>
         <div className='m-3 p-3 mt-4'>
           <h1 className='font-bold text-3xl mb-2'>Question-3: What is useRef Hook?</h1>
