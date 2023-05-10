@@ -26,7 +26,7 @@ const Result = () => {
   const clearResults = () => {
     deleteShoppingCart();
   }
-  
+
   return (
     <div>
       <div className='text-center text-4xl my-8'>
@@ -51,6 +51,7 @@ const Result = () => {
           <Legend />
           <Bar dataKey="totalQuestions" fill="#8884d8" />
           <Bar dataKey="corrected" fill="#82ca9d" />
+          
         </BarChart>
       </div>
       <div className='text-center my-4'>
