@@ -6,7 +6,7 @@ import axios from 'axios';
 const Result = () => {
   const [quizMark, setQuizMark] = useState([])
   const scores = getStoredCart();
-  // console.log("🚀 ~ file: Result.js:8 ~ Result ~ scoresData:", scores)
+  console.log("🚀 ~ file: Result.js:8 ~ Result ~ scoresData:", scores)
   useEffect(() => {
     axios.get('https://openapi.programming-hero.com/api/quiz')
       .then(data => {
@@ -19,10 +19,9 @@ const Result = () => {
           }
           return quizDetails
         })
-        // console.log(quizDatas);
+        console.log(quizDatas);
 
-        // console.log("🚀 ~ file: Result.js:17 ~ useEffect ~ chartData:", chartData)
-        setQuizMark(quizDatas)
+      setQuizMark(quizDatas)
       })
   }, [scores])
 
