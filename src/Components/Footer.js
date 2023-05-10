@@ -7,7 +7,7 @@ const Footer = () => {
       <p className='text-base lg:text-xl pt-4'>
         This is a very simple example of interview questions. Hope you wil able to crack it.
       </p>
-      <p className=" text-base lg:text-xl py-4">Copyright 2023 News Today</p>
+      <p className="text-base lg:text-xl py-4">Copyright 2023 News Today</p>
     </div>
   );
 };
